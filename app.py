@@ -297,6 +297,8 @@ def create_app(): #within this fn create a Flask class
                     "linkedin" : "www.petpooja_clone.linkedin.com"
                 }
             }
+
+            # test
             return jsonify(feel_free_to_contact_us = contact_us_dict)
 
         @app.route("/about_us", methods=["GET"])
